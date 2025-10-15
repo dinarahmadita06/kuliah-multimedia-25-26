@@ -1,0 +1,16 @@
+Speaker 1: Kamu udah kepikiran mau kerja di bidang apa setelah lulus?
+Speaker 2: Aku pengen kerja di perusahaan teknologi, mungkin di bidang data analyst.
+Speaker 1: Wah keren, berarti sekarang lagi fokus belajar data science ya?
+Speaker 2: Iya, aku juga ikut kursus online biar tambah skill.
+Speaker 1: Bagus tuh. Sekarang banyak perusahaan nyari orang yang bisa ngolah data jadi informasi.
+Speaker 2: Betul. Aku suka karena pekerjaan itu butuh logika, tapi juga ada sisi kreatif buat nyari insight baru.
+Speaker 1: Menarik sih, karena keputusan besar perusahaan sekarang sering didukung sama analisis data.
+Speaker 2: Iya, apalagi tren digital makin cepat, data makin banyak, jadi profesi ini makin dibutuhkan.
+Speaker 1: Kalau aku sendiri lebih tertarik ke project management, biar bisa mengatur alur kerja tim.
+Speaker 2: Itu penting banget, soalnya tanpa manajer proyek, tim teknis bisa kewalahan.
+Speaker 1: Kadang aku mikir, apapun bidangnya, yang penting kita bisa berkembang dan bermanfaat.
+Speaker 2: Setuju. Karier bukan cuma soal gaji, tapi juga soal kontribusi dan rasa puas dalam bekerja.
+Speaker 1: Semoga nanti kita bisa sama-sama sukses di jalur kita masing-masing.
+Speaker 2: Amin, mudah-mudahan ya
+
+
