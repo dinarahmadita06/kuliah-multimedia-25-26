@@ -1,0 +1,704 @@
+
+(base) C:\Users\Dina Rahma Dita>conda --version
+conda 25.5.1
+
+(base) C:\Users\Dina Rahma Dita>conda create -n multimedia python=3.11
+3 channel Terms of Service accepted
+Channels:
+ - defaults
+Platform: win-64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 25.5.1
+    latest version: 25.7.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Anaconda3\envs\multimedia
+
+  added / updated specs:
+    - python=3.11
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    openssl-3.0.17             |       h35632f6_0         7.8 MB
+    pip-25.2                   |     pyhc872135_0         1.2 MB
+    python-3.11.13             |       h981015d_0        18.7 MB
+    setuptools-78.1.1          |  py311haa95532_0         2.3 MB
+    sqlite-3.50.2              |       hda9a48d_1        1017 KB
+    tk-8.6.15                  |       hf199647_0         3.5 MB
+    ucrt-10.0.22621.0          |       haa95532_0         620 KB
+    vc-14.3                    |      h2df5915_10          19 KB
+    vc14_runtime-14.44.35208   |      h4927774_10         825 KB
+    vs2015_runtime-14.44.35208 |      ha6b5a95_10          19 KB
+    wheel-0.45.1               |  py311haa95532_0         182 KB
+    ------------------------------------------------------------
+                                           Total:        36.1 MB
+
+The following NEW packages will be INSTALLED:
+
+  bzip2              pkgs/main/win-64::bzip2-1.0.8-h2bbff1b_6
+  ca-certificates    pkgs/main/win-64::ca-certificates-2025.7.15-haa95532_0
+  expat              pkgs/main/win-64::expat-2.7.1-h8ddb27b_0
+  libffi             pkgs/main/win-64::libffi-3.4.4-hd77b12b_1
+  openssl            pkgs/main/win-64::openssl-3.0.17-h35632f6_0
+  pip                pkgs/main/noarch::pip-25.2-pyhc872135_0
+  python             pkgs/main/win-64::python-3.11.13-h981015d_0
+  setuptools         pkgs/main/win-64::setuptools-78.1.1-py311haa95532_0
+  sqlite             pkgs/main/win-64::sqlite-3.50.2-hda9a48d_1
+  tk                 pkgs/main/win-64::tk-8.6.15-hf199647_0
+  tzdata             pkgs/main/noarch::tzdata-2025b-h04d1e81_0
+  ucrt               pkgs/main/win-64::ucrt-10.0.22621.0-haa95532_0
+  vc                 pkgs/main/win-64::vc-14.3-h2df5915_10
+  vc14_runtime       pkgs/main/win-64::vc14_runtime-14.44.35208-h4927774_10
+  vs2015_runtime     pkgs/main/win-64::vs2015_runtime-14.44.35208-ha6b5a95_10
+  wheel              pkgs/main/win-64::wheel-0.45.1-py311haa95532_0
+  xz                 pkgs/main/win-64::xz-5.6.4-h4754444_1
+  zlib               pkgs/main/win-64::zlib-1.2.13-h8cc25b3_1
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate multimedia
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+
+(base) C:\Users\Dina Rahma Dita>conda install-c conda-forge librosa soundfile scipy
+usage: conda-script.py [-h] [-v] [--no-plugins] [-V] COMMAND ...
+conda-script.py: error: argument COMMAND: invalid choice: 'install-c' (choose from activate, build, clean, commands, compare, config, content-trust, convert, create, deactivate, debug, develop, doctor, env, export, index, info, init, inspect, install, list, metapackage, notices, pack, package, remove, rename, render, repo, repoquery, run, search, server, skeleton, token, tos, uninstall, update, upgrade)
+
+(base) C:\Users\Dina Rahma Dita>conda install -c conda-forge librosa soundfile scipy
+3 channel Terms of Service accepted
+Channels:
+ - conda-forge
+ - defaults
+Platform: win-64
+Collecting package metadata (repodata.json): done
+Solving environment: failed
+
+CondaError: KeyboardInterrupt
+
+Terminate batch job (Y/N)? n
+
+(base) C:\Users\Dina Rahma Dita>conda install -c conda-forge librosa soundfile scipy
+3 channel Terms of Service accepted
+Channels:
+ - conda-forge
+ - defaults
+Platform: win-64
+Collecting package metadata (repodata.json): done
+Solving environment: failed
+
+PackagesNotFoundError: The following packages are not available from current channels:
+
+  - soundfile
+
+Current channels:
+
+  - https://conda.anaconda.org/conda-forge
+  - defaults
+
+To search for alternate channels that may provide the conda package you're
+looking for, navigate to
+
+    https://anaconda.org
+
+and use the search bar at the top of the page.
+
+
+
+(base) C:\Users\Dina Rahma Dita>conda install -c conda-forge librosa pysoundfile scipy
+3 channel Terms of Service accepted
+Channels:
+ - conda-forge
+ - defaults
+Platform: win-64
+Collecting package metadata (repodata.json): \ Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after t
+
+done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 25.5.1
+    latest version: 25.7.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Anaconda3
+
+  added / updated specs:
+    - librosa
+    - pysoundfile
+    - scipy
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    audioread-3.0.1            |  py313hfa70ccb_2          44 KB  conda-forge
+    ca-certificates-2025.8.3   |       h4c7d964_0         151 KB  conda-forge
+    conda-25.7.0               |  py313hfa70ccb_0         1.2 MB  conda-forge
+    importlib-resources-6.5.2  |     pyhd8ed1ab_0           9 KB  conda-forge
+    importlib_resources-6.5.2  |     pyhd8ed1ab_0          33 KB  conda-forge
+    lame-3.100                 |    hcfcfb64_1003         557 KB  conda-forge
+    libflac-1.4.2              |       h63175ca_0         375 KB  conda-forge
+    libogg-1.3.4               |       h8ffe710_1          34 KB  conda-forge
+    libopus-1.3.1              |       h8ffe710_1         255 KB  conda-forge
+    librosa-0.9.2              |     pyhd8ed1ab_0         156 KB  conda-forge
+    libsndfile-1.2.0           |       h2628c91_0         329 KB  conda-forge
+    libvorbis-1.3.7            |       h0e60522_0         267 KB  conda-forge
+    mpg123-1.31.3              |       h63175ca_0         265 KB  conda-forge
+    openssl-3.1.0              |       hcfcfb64_3         7.1 MB  conda-forge
+    pooch-1.8.2                |     pyhd8ed1ab_3          54 KB  conda-forge
+    pysoundfile-0.13.1         |     pyhd8ed1ab_0          30 KB  conda-forge
+    resampy-0.4.3              |     pyhd8ed1ab_1         2.9 MB  conda-forge
+    ucrt-10.0.26100.0          |       h57928b3_0         678 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        14.4 MB
+
+The following NEW packages will be INSTALLED:
+
+  audioread          conda-forge/win-64::audioread-3.0.1-py313hfa70ccb_2
+  importlib-resourc~ conda-forge/noarch::importlib-resources-6.5.2-pyhd8ed1ab_0
+  importlib_resourc~ conda-forge/noarch::importlib_resources-6.5.2-pyhd8ed1ab_0
+  lame               conda-forge/win-64::lame-3.100-hcfcfb64_1003
+  libflac            conda-forge/win-64::libflac-1.4.2-h63175ca_0
+  libogg             conda-forge/win-64::libogg-1.3.4-h8ffe710_1
+  libopus            conda-forge/win-64::libopus-1.3.1-h8ffe710_1
+  librosa            conda-forge/noarch::librosa-0.9.2-pyhd8ed1ab_0
+  libsndfile         conda-forge/win-64::libsndfile-1.2.0-h2628c91_0
+  libvorbis          conda-forge/win-64::libvorbis-1.3.7-h0e60522_0
+  mpg123             conda-forge/win-64::mpg123-1.31.3-h63175ca_0
+  pooch              conda-forge/noarch::pooch-1.8.2-pyhd8ed1ab_3
+  pysoundfile        conda-forge/noarch::pysoundfile-0.13.1-pyhd8ed1ab_0
+  resampy            conda-forge/noarch::resampy-0.4.3-pyhd8ed1ab_1
+  ucrt               conda-forge/win-64::ucrt-10.0.26100.0-h57928b3_0
+
+The following packages will be UPDATED:
+
+  ca-certificates    pkgs/main/win-64::ca-certificates-202~ --> conda-forge/noarch::ca-certificates-2025.8.3-h4c7d964_0
+  conda              pkgs/main::conda-25.5.1-py313haa95532~ --> conda-forge::conda-25.7.0-py313hfa70ccb_0
+  openssl              pkgs/main::openssl-3.0.16-h3f729d1_0 --> conda-forge::openssl-3.1.0-hcfcfb64_3
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+(base) C:\Users\Dina Rahma Dita>python
+Python 3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import librosa
+... import soundfile as sf
+... import scipy
+...
+... print("Librosa:", librosa.__version__)
+... print("Soundfile:", sf.__version__)
+... print("Scipy:", scipy.__version__)
+...
+Traceback (most recent call last):
+  File "<python-input-0>", line 1, in <module>
+    import librosa
+  File "C:\Anaconda3\Lib\site-packages\librosa\__init__.py", line 209, in <module>
+    from . import core
+  File "C:\Anaconda3\Lib\site-packages\librosa\core\__init__.py", line 5, in <module>
+    from .convert import *  # pylint: disable=wildcard-import
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda3\Lib\site-packages\librosa\core\convert.py", line 7, in <module>
+    from . import notation
+  File "C:\Anaconda3\Lib\site-packages\librosa\core\notation.py", line 8, in <module>
+    from ..util.exceptions import ParameterError
+  File "C:\Anaconda3\Lib\site-packages\librosa\util\__init__.py", line 77, in <module>
+    from .utils import *  # pylint: disable=wildcard-import
+    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda3\Lib\site-packages\librosa\util\utils.py", line 9, in <module>
+    import numba
+  File "C:\Anaconda3\Lib\site-packages\numba\__init__.py", line 59, in <module>
+    _ensure_critical_deps()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Anaconda3\Lib\site-packages\numba\__init__.py", line 45, in _ensure_critical_deps
+    raise ImportError(msg)
+ImportError: Numba needs NumPy 2.1 or less. Got NumPy 2.2.
+>>> forrtl: error (200): program aborting due to control-C event
+Image              PC                Routine            Line        Source
+libifcoremd.dll    00007FFC569FDF54  Unknown               Unknown  Unknown
+KERNELBASE.dll     00007FFCEAABB0AD  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFCEB35E8D7  Unknown               Unknown  Unknown
+ntdll.dll          00007FFCED09C34C  Unknown               Unknown  Unknown
+
+(base) C:\Users\Dina Rahma Dita>pip install "numpy<=2.1"
+Collecting numpy<=2.1
+  Downloading numpy-2.1.0-cp313-cp313-win_amd64.whl.metadata (59 kB)
+Downloading numpy-2.1.0-cp313-cp313-win_amd64.whl (12.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.6/12.6 MB 17.3 MB/s eta 0:00:00
+Installing collected packages: numpy
+  Attempting uninstall: numpy
+    Found existing installation: numpy 2.2.4
+    Uninstalling numpy-2.2.4:
+      Successfully uninstalled numpy-2.2.4
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+streamlit 1.45.1 requires packaging<25,>=20, but you have packaging 25.0 which is incompatible.
+Successfully installed numpy-2.1.0
+
+[notice] A new release of pip is available: 25.1.1 -> 25.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(base) C:\Users\Dina Rahma Dita>python
+Python 3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import librosa, soundfile as sf, scipy
+... print("Librosa:", librosa.__version__)
+... print("Soundfile:", sf.__version__)
+... print("Scipy:", scipy.__version__)
+...
+Librosa: 0.9.2
+Soundfile: 0.13.1
+Scipy: 1.15.3
+>>> forrtl: error (200): program aborting due to control-C event
+Image              PC                Routine            Line        Source
+libifcoremd.dll    00007FFC569FDF54  Unknown               Unknown  Unknown
+KERNELBASE.dll     00007FFCEAABB0AD  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFCEB35E8D7  Unknown               Unknown  Unknown
+ntdll.dll          00007FFCED09C34C  Unknown               Unknown  Unknown
+
+(base) C:\Users\Dina Rahma Dita>conda install -c conda-forge opencv pillow scikit-image matplotlib
+3 channel Terms of Service accepted
+Channels:
+ - conda-forge
+ - defaults
+Platform: win-64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\Anaconda3
+
+  added / updated specs:
+    - matplotlib
+    - opencv
+    - pillow
+    - scikit-image
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    arrow-cpp-19.0.0           |       h33d5241_1         7.7 MB
+    cairo-1.18.4               |       he9e932c_0         637 KB
+    eigen-3.4.0                |       h91493d7_0         1.0 MB  conda-forge
+    fontconfig-2.14.1          |       hb33846d_3         224 KB
+    graphite2-1.3.14           |       hac47afa_2          94 KB  conda-forge
+    gst-plugins-base-1.22.3    |       hfc3ed34_1         2.0 MB
+    gstreamer-1.22.3           |       h1779075_1         1.7 MB
+    harfbuzz-10.2.0            |       he2f9f60_1         1.2 MB
+    lazy-loader-0.4            |     pyhd8ed1ab_2          16 KB  conda-forge
+    lcms2-2.16                 |       hb4a4139_0         566 KB
+    libabseil-20240116.2       | cxx17_he0c23c2_1         1.7 MB  conda-forge
+    libglib-2.84.2             |       h405b238_0         1.6 MB
+    libgrpc-1.62.2             |       hf25190f_0        17.2 MB
+    libogg-1.3.5               |       h2466b09_1          34 KB  conda-forge
+    libprotobuf-4.25.3         |       hf2fb9eb_0         6.2 MB
+    libtiff-4.5.1              |       h44ae7cf_1         1.0 MB
+    opencv-4.10.0              |  py313h8241d7d_2        35.6 MB
+    openjpeg-2.5.2             |       hae555c5_0         268 KB
+    openssl-3.5.2              |       h725018a_0         8.8 MB  conda-forge
+    orc-2.0.1                  |       hd8d391b_0         1.1 MB
+    pillow-11.1.0              |  py313h096bfcc_0         925 KB
+    pixman-0.46.4              |       h5112557_1         530 KB  conda-forge
+    protobuf-4.25.3            |  py313h93a47e2_1         372 KB  conda-forge
+    re2-2022.04.01             |       h0e60522_0         472 KB  conda-forge
+    scikit-image-0.25.2        |  py313hf91d08e_1         9.7 MB  conda-forge
+    vc14_runtime-14.44.35208   |      h818238b_31         666 KB  conda-forge
+    vcomp14-14.44.35208        |      h818238b_31         111 KB  conda-forge
+    vs2015_runtime-14.44.35208 |      h38c0c73_31          18 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:       101.4 MB
+
+The following NEW packages will be INSTALLED:
+
+  cairo              pkgs/main/win-64::cairo-1.18.4-he9e932c_0
+  eigen              conda-forge/win-64::eigen-3.4.0-h91493d7_0
+  fontconfig         pkgs/main/win-64::fontconfig-2.14.1-hb33846d_3
+  graphite2          conda-forge/win-64::graphite2-1.3.14-hac47afa_2
+  gst-plugins-base   pkgs/main/win-64::gst-plugins-base-1.22.3-hfc3ed34_1
+  gstreamer          pkgs/main/win-64::gstreamer-1.22.3-h1779075_1
+  harfbuzz           pkgs/main/win-64::harfbuzz-10.2.0-he2f9f60_1
+  lazy-loader        conda-forge/noarch::lazy-loader-0.4-pyhd8ed1ab_2
+  libglib            pkgs/main/win-64::libglib-2.84.2-h405b238_0
+  opencv             pkgs/main/win-64::opencv-4.10.0-py313h8241d7d_2
+  pixman             conda-forge/win-64::pixman-0.46.4-h5112557_1
+  vc14_runtime       conda-forge/win-64::vc14_runtime-14.44.35208-h818238b_31
+  vcomp14            conda-forge/win-64::vcomp14-14.44.35208-h818238b_31
+
+The following packages will be REMOVED:
+
+  libre2-11-2024.07.02-h5da7b33_0
+
+The following packages will be UPDATED:
+
+  libogg                                   1.3.4-h8ffe710_1 --> 1.3.5-h2466b09_1
+  openssl                                  3.1.0-hcfcfb64_3 --> 3.5.2-h725018a_0
+  scikit-image       pkgs/main::scikit-image-0.25.0-py313h~ --> conda-forge::scikit-image-0.25.2-py313hf91d08e_1
+  vs2015_runtime     pkgs/main::vs2015_runtime-14.42.34433~ --> conda-forge::vs2015_runtime-14.44.35208-h38c0c73_31
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  libabseil          pkgs/main::libabseil-20250127.0-cxx17~ --> conda-forge::libabseil-20240116.2-cxx17_he0c23c2_1
+  protobuf           pkgs/main::protobuf-5.29.3-py313h5da7~ --> conda-forge::protobuf-4.25.3-py313h93a47e2_1
+  re2                  pkgs/main::re2-2024.07.02-h214f63a_0 --> conda-forge::re2-2022.04.01-h0e60522_0
+
+The following packages will be DOWNGRADED:
+
+  libgrpc                                 1.71.0-hf4237ab_0 --> 1.62.2-hf25190f_0
+  libprotobuf                             5.29.3-hac4c8cb_0 --> 4.25.3-hf2fb9eb_0
+  libtiff                                  4.7.0-h404307b_0 --> 4.5.1-h44ae7cf_1
+  orc                                      2.1.1-hd1c1d5c_0 --> 2.0.1-hd8d391b_0
+
+The following packages will be REVISED:
+
+  arrow-cpp                               19.0.0-h33d5241_2 --> 19.0.0-h33d5241_1
+  lcms2                                     2.16-h62be587_1 --> 2.16-hb4a4139_0
+  openjpeg                                 2.5.2-h9b5d1b5_1 --> 2.5.2-hae555c5_0
+  pillow                             11.1.0-py313hea0d53e_1 --> 11.1.0-py313h096bfcc_0
+
+
+Proceed ([y]/n)?
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+(base) C:\Users\Dina Rahma Dita>
+(base) C:\Users\Dina Rahma Dita>
+(base) C:\Users\Dina Rahma Dita>
+(base) C:\Users\Dina Rahma Dita>
+(base) C:\Users\Dina Rahma Dita>
+(base) C:\Users\Dina Rahma Dita>
+(base) C:\Users\Dina Rahma Dita>
+(base) C:\Users\Dina Rahma Dita>
+(base) C:\Users\Dina Rahma Dita>
+(base) C:\Users\Dina Rahma Dita>
+(base) C:\Users\Dina Rahma Dita>python
+Python 3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import cv2
+... import PIL, PIL.Image
+... import skimage, skimage.io, skimage.color, skimage.filters
+... import matplotlib
+... import matplotlib.pyplot as plt
+...
+... print("OpenCV :", cv2.__version__)
+... print("Pillow :", PIL.__version__)
+... print("skimage:", skimage.__version__)
+... print("mpl    :", matplotlib.__version__)
+...
+Matplotlib is building the font cache; this may take a moment.
+OpenCV : 4.10.0
+Pillow : 11.1.0
+skimage: 0.25.2
+mpl    : 3.10.0
+>>> forrtl: error (200): program aborting due to control-C event
+Image              PC                Routine            Line        Source
+libifcoremd.dll    00007FFBF5ABDF54  Unknown               Unknown  Unknown
+KERNELBASE.dll     00007FFCEAABB0AD  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFCEB35E8D7  Unknown               Unknown  Unknown
+ntdll.dll          00007FFCED09C34C  Unknown               Unknown  Unknown
+
+(base) C:\Users\Dina Rahma Dita>conda install -c conda-forge ffmpeg
+3 channel Terms of Service accepted
+Channels:
+ - conda-forge
+ - defaults
+Platform: win-64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\Anaconda3
+
+  added / updated specs:
+    - ffmpeg
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ffmpeg-4.3.1               |       ha925a31_0        26.2 MB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        26.2 MB
+
+The following NEW packages will be INSTALLED:
+
+  ffmpeg             conda-forge/win-64::ffmpeg-4.3.1-ha925a31_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+(base) C:\Users\Dina Rahma Dita>conda install numpy pandas jupyter
+3 channel Terms of Service accepted
+Channels:
+ - defaults
+Platform: win-64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\Anaconda3
+
+  added / updated specs:
+    - jupyter
+    - numpy
+    - pandas
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    pandas-2.3.2               |  py313h42c1672_0        13.9 MB
+    ------------------------------------------------------------
+                                           Total:        13.9 MB
+
+The following packages will be UPDATED:
+
+  pandas                              2.2.3-py313h5da7b33_0 --> 2.3.2-py313h42c1672_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+(base) C:\Users\Dina Rahma Dita>python
+Python 3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import numpy
+... import pandas
+...
+... print("General Purpose Libraries:")
+... print("NumPy version :", numpy.__version__)
+... print("Pandas version:", pandas.__version__)
+...
+... # cek jupyter tersedia
+... try:
+...     import jupyter
+...     print("Jupyter tersedia ✅")
+... except ImportError:
+...     print("Jupyter belum terinstal ❌")
+...
+General Purpose Libraries:
+NumPy version : 2.1.0
+Pandas version: 2.2.3
+Jupyter tersedia ✅
+>>> import subprocess
+...
+... # jalankan ffmpeg -version
+... result = subprocess.run(["ffmpeg", "-version"], capture_output=True, text=True)
+... print("FFmpeg test:")
+... print(result.stdout.splitlines()[0])  # baris pertama versi ffmpeg
+...
+FFmpeg test:
+ffmpeg version 4.3.1 Copyright (c) 2000-2020 the FFmpeg developers
+>>> import moviepy
+... import moviepy.editor as mp
+...
+... print("MoviePy test:")
+... print("MoviePy version:", moviepy.__version__)
+...
+Traceback (most recent call last):
+  File "<python-input-2>", line 1, in <module>
+    import moviepy
+ModuleNotFoundError: No module named 'moviepy'
+>>>
+KeyboardInterrupt
+>>>
+KeyboardInterrupt
+>>>
+>>>
+KeyboardInterrupt
+>>>
+KeyboardInterrupt
+>>> ^Z
+
+(base) C:\Users\Dina Rahma Dita>pip install moviepy
+Collecting moviepy
+  Downloading moviepy-2.2.1-py3-none-any.whl.metadata (6.9 kB)
+Requirement already satisfied: decorator<6.0,>=4.0.2 in c:\anaconda3\lib\site-packages (from moviepy) (5.1.1)
+Requirement already satisfied: imageio<3.0,>=2.5 in c:\anaconda3\lib\site-packages (from moviepy) (2.37.0)
+Collecting imageio_ffmpeg>=0.2.0 (from moviepy)
+  Downloading imageio_ffmpeg-0.6.0-py3-none-win_amd64.whl.metadata (1.5 kB)
+Requirement already satisfied: numpy>=1.25.0 in c:\anaconda3\lib\site-packages (from moviepy) (2.1.0)
+Collecting proglog<=1.0.0 (from moviepy)
+  Downloading proglog-0.1.12-py3-none-any.whl.metadata (794 bytes)
+Requirement already satisfied: python-dotenv>=0.10 in c:\anaconda3\lib\site-packages (from moviepy) (1.1.0)
+Requirement already satisfied: pillow<12.0,>=9.2.0 in c:\anaconda3\lib\site-packages (from moviepy) (11.1.0)
+Requirement already satisfied: tqdm in c:\anaconda3\lib\site-packages (from proglog<=1.0.0->moviepy) (4.67.1)
+Requirement already satisfied: colorama in c:\users\dina rahma dita\appdata\roaming\python\python313\site-packages (from tqdm->proglog<=1.0.0->moviepy) (0.4.6)
+Downloading moviepy-2.2.1-py3-none-any.whl (129 kB)
+Downloading proglog-0.1.12-py3-none-any.whl (6.3 kB)
+Downloading imageio_ffmpeg-0.6.0-py3-none-win_amd64.whl (31.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 31.2/31.2 MB 6.1 MB/s eta 0:00:00
+Installing collected packages: imageio_ffmpeg, proglog, moviepy
+Successfully installed imageio_ffmpeg-0.6.0 moviepy-2.2.1 proglog-0.1.12
+
+[notice] A new release of pip is available: 25.1.1 -> 25.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(base) C:\Users\Dina Rahma Dita>python
+Python 3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import moviepy
+... import moviepy.editor as mp
+...
+... print("MoviePy test:")
+... print("MoviePy version:", moviepy.__version__)
+...
+Traceback (most recent call last):
+  File "<python-input-0>", line 2, in <module>
+    import moviepy.editor as mp
+ModuleNotFoundError: No module named 'moviepy.editor'
+>>> import moviepy
+... import moviepy as mp  # v2.x: objek diekspor di top-level
+...
+... print("MoviePy:", moviepy.__version__)
+...
+... # uji sederhana (ganti "input.mp4" dengan filemu)
+... # clip = mp.VideoFileClip("input.mp4")
+... # clip.subclip(0, 2).write_videofile("out.mp4")
+...
+MoviePy: 2.1.2
+>>> python test_audio.py
+  File "<python-input-2>", line 1
+    python test_audio.py
+           ^^^^^^^^^^
+SyntaxError: invalid syntax
+>>> ^Z
+
+(base) C:\Users\Dina Rahma Dita>python test_audio.py
+python: can't open file 'C:\\Users\\Dina Rahma Dita\\test_audio.py': [Errno 2] No such file or directory
+
+(base) C:\Users\Dina Rahma Dita>python test_audio.py
+Traceback (most recent call last):
+  File "C:\Users\Dina Rahma Dita\test_audio.py", line 20, in <module>
+    plt.show()
+    ~~~~~~~~^^
+  File "C:\Anaconda3\Lib\site-packages\matplotlib\pyplot.py", line 614, in show
+    return _get_backend_mod().show(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda3\Lib\site-packages\matplotlib\backend_bases.py", line 3547, in show
+    cls.mainloop()
+    ~~~~~~~~~~~~^^
+  File "C:\Anaconda3\Lib\site-packages\matplotlib\backends\backend_qt.py", line 640, in start_main_loop
+    with _allow_interrupt_qt(qapp):
+         ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Anaconda3\Lib\contextlib.py", line 148, in __exit__
+    next(self.gen)
+    ~~~~^^^^^^^^^^
+  File "C:\Anaconda3\Lib\site-packages\matplotlib\backend_bases.py", line 1658, in _allow_interrupt
+    old_sigint_handler(*handler_args)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+KeyboardInterrupt
+^C
+(base) C:\Users\Dina Rahma Dita>
+(base) C:\Users\Dina Rahma Dita>python test_audio.py
+Traceback (most recent call last):
+  File "C:\Users\Dina Rahma Dita\test_audio.py", line 20, in <module>
+    plt.show()
+    ~~~~~~~~^^
+  File "C:\Anaconda3\Lib\site-packages\matplotlib\pyplot.py", line 614, in show
+    return _get_backend_mod().show(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda3\Lib\site-packages\matplotlib\backend_bases.py", line 3547, in show
+    cls.mainloop()
+    ~~~~~~~~~~~~^^
+  File "C:\Anaconda3\Lib\site-packages\matplotlib\backends\backend_qt.py", line 640, in start_main_loop
+    with _allow_interrupt_qt(qapp):
+         ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Anaconda3\Lib\contextlib.py", line 148, in __exit__
+    next(self.gen)
+    ~~~~^^^^^^^^^^
+  File "C:\Anaconda3\Lib\site-packages\matplotlib\backend_bases.py", line 1658, in _allow_interrupt
+    old_sigint_handler(*handler_args)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+KeyboardInterrupt
+^C
+(base) C:\Users\Dina Rahma Dita>python test_audio.py
+Generated 2s sine wave at 880 Hz
+Sample rate: 44100 Hz
+Total samples: 88200
+
+(base) C:\Users\Dina Rahma Dita>python test_audio.py
+Generated 2s sine wave at 440 Hz
+Sample rate: 44100 Hz
+Total samples: 88200
+
+(base) C:\Users\Dina Rahma Dita>python test_image.py
+Traceback (most recent call last):
+  File "C:\Users\Dina Rahma Dita\test_image.py", line 1, in <module>
+    importnumpyasnp
+NameError: name 'importnumpyasnp' is not defined
+
+(base) C:\Users\Dina Rahma Dita>python test_image.py
+
+(base) C:\Users\Dina Rahma Dita>python test_image.py
+Created test image: 400x300 pixels
+Image shape: (300, 400, 3)
+Image dtype: uint8
+
+(base) C:\Users\Dina Rahma Dita>
