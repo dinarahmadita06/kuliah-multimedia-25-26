@@ -1,6 +1,6 @@
 # Kuliah Multimedia 2025-26
 
-Repositori ini berisi tugas dan praktikum untuk mata kuliah **Sistem & Teknologi Multimedia** semester 2025-26.
+Repositori ini berisi tugas dan hands-on untuk mata kuliah **Sistem & Teknologi Multimedia** semester 2025-26.
 
 ## Informasi Mahasiswa
 
