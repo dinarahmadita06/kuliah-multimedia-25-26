@@ -2,7 +2,7 @@
 
 Sistem deteksi detak jantung real-time menggunakan Remote Photoplethysmography (rPPG).
 
-## Fitur (v2.0 - BPM Accuracy Fix)
+## Fitur 
 - ✅ Real-time heart rate detection menggunakan webcam
 - ✅ Implementasi metode POS (Plane-Orthogonal-to-Skin)
 - ✅ Skin segmentation untuk ROI yang lebih presisi
@@ -23,18 +23,12 @@ Sistem deteksi detak jantung real-time menggunakan Remote Photoplethysmography (
 
 ## Cara Menjalankan
 
-### Cara 1: Double-click script (MUDAH)
-```
-Double-click file: run_rpppg.bat
-```
-
-### Cara 2: Manual via terminal
 ```bash
 # Aktifkan virtual environment
 venv\Scripts\activate
 
 # Jalankan program
-python rpppg_realtime.py
+python rppg_realtime.py
 ```
 
 ## Kontrol Program
@@ -65,14 +59,6 @@ python rpppg_realtime.py
 - **Aktif:** 85-120 BPM (orange)
 - **Akurasi:** ±3-5 BPM vs pulse oximeter
 - **Stabilitas:** Smooth transitions, no jumps
-
-## Troubleshooting
-
-### Error GIL (Python 3.13)
-Gunakan Python 3.11 atau 3.12. Virtual environment sudah dikonfigurasi dengan Python 3.11.
-
-### MediaPipe tidak terinstall
-Virtual environment sudah include MediaPipe. Gunakan `run_rpppg.bat` atau aktifkan venv terlebih dahulu.
 
 ## Teknologi
 - OpenCV: Video capture & image processing
