@@ -2,7 +2,7 @@
 
 Sistem deteksi detak jantung real-time menggunakan Remote Photoplethysmography (rPPG).
 
-## Fitur Utama (sesuai kode)
+## Fitur Utama
 - **Deteksi wajah**: MediaPipe FaceDetection; otomatis fallback ke OpenCV Haar Cascade jika MediaPipe tidak tersedia.
 - **ROI dahi (jidat)**: Di bagian atas bounding box wajah dengan geometri tetap di kode:
    - tinggi ≈ 20% dari tinggi wajah
